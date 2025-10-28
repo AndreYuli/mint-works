@@ -86,7 +86,7 @@ class Game {
     // Fill plan market
     this.fillPlanMarket();
 
-    this.phase = GAME_PHASES.UPKEEP;
+    this.phase = GAME_PHASES.PLANNING;
     this.round = 1;
 
     return { success: true };
